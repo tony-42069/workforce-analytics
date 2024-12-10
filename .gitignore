@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Secrets and Configs
+.env
+.env.local
+*.config
+config/production.yaml
+config/development.yaml
+secrets/
+
+# Project specific
+target_sites.yaml
+company_profiles/
+analysis_rules/
+business_logic/
+strategy/
+notes/
+*_private.*
